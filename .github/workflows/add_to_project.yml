@@ -1,15 +1,16 @@
 name: Add pull request or issue to project
-on:
-  pull_request:
-    types:
-      - opened
-      - reopened
-  issues:
-    types:
-      - opened
-      - reopened
-      - transferred
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     types:
+#       - opened
+#       - reopened
+#   issues:
+#     types:
+#       - opened
+#       - reopened
+#       - transferred
+# 
 jobs:
   add-to-project:
     name: Add pull request or issue to project
